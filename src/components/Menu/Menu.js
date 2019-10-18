@@ -1,7 +1,7 @@
 import React from 'react';
 import './Menu.scss';
 
-const Menu = ({ className, onClick }) => {
+const Menu = ({ className = 'menu', onClick }) => {
     console.log('Menu rendering');
     return (
         <div className={className} onClick={onClick}>
